@@ -1,0 +1,16 @@
+modules:
+
+  http_2xx:
+    prober: http
+    timeout: 10s
+    http:
+      preferred_ip_protocol: ip4
+
+  dns_3dots:
+    prober: dns
+    timeout: 5s
+    dns:
+      query_name: "3dots.agency"
+      query_type: "A"
+      transport_protocol: "udp"
+      preferred_ip_protocol: "ip4"

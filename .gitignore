@@ -1,0 +1,15 @@
+# Prometheus data
+prometheus-data/
+
+# Grafana data
+grafana-data/
+
+# Alertmanager data
+alertmanager-data/
+
+# macOS
+.DS_Store
+
+# Environment/secrets
+.env
+*.secret
